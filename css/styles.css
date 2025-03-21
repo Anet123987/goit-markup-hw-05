@@ -48,7 +48,7 @@ body {
 }
 .site_header {
    
-    background-color: #f4f4fd;
+    background-color:white;
     border-bottom: 1px solid #e7e9fc;
     height: 72px;
     display:flex;
@@ -57,6 +57,7 @@ body {
     box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16), 
     0px 1px 6px rgba(46, 47, 66, 0.08);
+    
     
 }
 .site_header .container {
@@ -103,6 +104,8 @@ body {
 }
 .nav-links a.active {
     font-weight: 500; 
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .logo-link {
     text-decoration: none;
@@ -189,6 +192,74 @@ body {
     color: #404bbf;
 }
 
+
+.first_section {
+    padding: 188px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/heroimage.jpg);
+    background-color:#2E2F42 ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    max-width: 1440px; 
+    
+}
+.section_title {
+    
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;
+    max-width: 496px;
+    margin-bottom: 48px;
+    margin-left:  auto ;
+    margin-right: auto;
+    gap:48px;
+}
+
+
+.action_button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--main-button-color, #4d5ae5);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    padding: 16px 32px;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.action_button:hover,
+.action_button:focus {
+    background-color: #404bbf;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  
+}
 
 .first_section {
     padding: 188px 0;
