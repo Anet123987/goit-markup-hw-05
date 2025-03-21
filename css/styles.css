@@ -784,7 +784,7 @@ footer .social-link:focus {
 
 
 .icon-icon-tele {
- padding-top: 8px;
+ 
 
 }
 .email-sub  {
@@ -971,6 +971,8 @@ width: 8px;
     width: 16px; 
     margin-top: 5px;
 margin-right: 8px ;
+justify-content: center;
+align-items: center;
 
 
   }
@@ -982,6 +984,7 @@ margin-right: 8px ;
   }
   .check-check:checked + .modal-check .modal-check-icon {
     display: block;
+    background-color: #4d5ae5;
   }
   .modal-label-check{
   font-family: var(--font-family);
