@@ -982,7 +982,8 @@ align-items: center;
   
 
   }
-  .check-check:checked + .modal-check .modal-check-icon {
+  .check-check:checked + .modal-label-check >.modal-check-icon
+{
     display: block;
     background-color: #4d5ae5;
   }
