@@ -783,14 +783,8 @@ footer .social-link:focus {
 
 
 
-.icon-icon-tele {
- 
 
-}
-.email-sub  {
- 
- 
-    }
+
 .subscribe-button {
     font-family: var(--font-family);
 font-weight: 500;
@@ -977,14 +971,9 @@ align-items: center;
 
   }
 
-.modal-check-icon{
-    
-  
 
-  }
-  .check-check:checked + .modal-label-check >.modal-check-icon
-{
-    display: block;
+  .check-check:checked + .modal-label-check > .modal-check-icon{
+   display: flex;
     background-color: #4d5ae5;
   }
   .modal-label-check{
