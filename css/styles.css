@@ -778,7 +778,9 @@ footer .social-link:focus {
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--navy-blue);
-    box-sizing: border-box;
+    padding: 0;
+    color: white
+
 } 
 
 
@@ -799,15 +801,16 @@ margin-left: 16px;
 width: 165px;
 height: 40px;
 padding:8px 24px;
-
+border: none;
+align-items: center;
+display: flex;
 
 }
-.futter-button{
- margin-right: 200px;
- 
+.icon-icon-tele{
+    margin-left:8px;
+     
+    }
 
- 
-}
 .backdrop {
     position: fixed;
     top: 0;
@@ -951,10 +954,8 @@ width: 8px;
    align-items: center;
   
   }
-  .check-check:checked {
-    background-color: var(--ocean);
-    border: 1px solid var(--ocean);;
-  }
+
+  
 
   
   .modal-check {
@@ -967,13 +968,19 @@ width: 8px;
 margin-right: 8px ;
 justify-content: center;
 align-items: center;
+fill: var(--okean);
 
 
   }
 
-
-  .check-check:checked + .modal-label-check > .modal-check-icon{
+.fo {
    display: flex;
+   
+    
+  }
+  .check-check:checked + .modal-label-check > .modal-check-icon {
+   
+    border: none;
     background-color: #4d5ae5;
   }
   .modal-label-check{
