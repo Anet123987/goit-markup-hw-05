@@ -873,17 +873,20 @@ padding: 0;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   }
-  .modal-close-btn :hover{
-    background-color: #404bbf;
-    border: none;
-    fill: #ffffff
-  }
-  .modal-close-btn :focus {
-    background-color: #404bbf;
-    border: none;
-    fill: #ffffff
-  }
 
+  .modal-close-btn:hover {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff
+  }
+  
+  
+  .modal-close-btn:focus {
+    background-color: #404bbf;
+    border: none;
+    outline: none;
+    fill: #ffffff
+  }
   .modal-label{
     font-family: var(--font-family);
 font-weight: 400;
@@ -931,11 +934,13 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: transparent; 
     outline: transparent; 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
   }
-  .modal-imput:focus {
+  .modal-imput :focus {
     border-color: #4D5AE5;
     outline: none;
   }
+ 
   .modal-imput:focus +.modal-icon{
     stroke: #404bbf;
   }
@@ -962,10 +967,13 @@ background-color: transparent;
   
   }
   
-  .modal-textarea :focus{
-    border-color: var(--iris);
-    outline: none;
-  }
+
+  textarea:focus,
+input:focus {
+  border-color: #4D5AE5; 
+  outline: none;
+}
+
   .modal-icon{
     fill: var(--navy-blue);
     position: absolute;
@@ -1007,7 +1015,7 @@ background-color: transparent;
   .modal-check {
     display: inline-flex;
     border-radius: 2px;
-    border: 1px solid var(--navy-blue-modal);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     height: 16px;
     width: 16px; 
     margin-top: 5px;
@@ -1061,6 +1069,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     border: none;
     background-color: #4d5ae5;
   }
+  #user-privacy:checked + .modal-label-check .modal-check-icon {
+    fill: #4D5AE5;
+  }
   .modal-label-check{
   font-family: var(--font-family);
 font-weight: 400;
@@ -1071,7 +1082,7 @@ color: var(--light-slate);
 display: inline-flex;
 justify-content: center;
 align-items: center;
-margin-top: 40px;
+
 border-radius: 4px;
 width: 360px;
 height: 16px;
