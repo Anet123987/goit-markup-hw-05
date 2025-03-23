@@ -1025,9 +1025,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   }
-.modalform {
-   
-} 
+
      
 .form-futter {
    display: flex;
@@ -1047,19 +1045,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   input[type="checkbox"]:checked + .modal-label-check .modal-check {
     background-color: var(--primary-color, #404bbf); 
     border: none;
-  }
-  
-  input[type="checkbox"]:checked + .modal-label-check .modal-check-icon {
     fill: var(--icon-color, #F4F4FD);
   }
-  .check-check:checked + .modal-label-check > .modal-check-icon {
-   
-    border: none;
-    background-color: #4d5ae5;
-  }
-  #user-privacy:checked + .modal-label-check .modal-check-icon {
-    fill: #4D5AE5;
-  }
+  
+
+  
   .modal-label-check{
   font-family: var(--font-family);
 font-weight: 400;
