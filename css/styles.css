@@ -897,7 +897,7 @@ display: block;
 margin-bottom: 4px;
   }
   .icon-modal-close {
-    fill:var(--cloud);
+    fill:var(--navy-blue);
     display: flex;
 justify-content: center;
 align-items: center;
@@ -941,7 +941,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
  
   .modal-imput:focus +.modal-icon{
-    stroke: #404bbf;
+    fill: #404bbf;
   }
   .modal-field {
     position: relative;
