@@ -985,6 +985,7 @@ input:focus {
   .modal-icon:focus{
     fill: #4D5AE5;
   }
+  
   .label-wrap {font-family: var(--font-family);
   font-weight: 400;
   font-size: 12px;
@@ -1024,9 +1025,14 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   }
-
-.modal-check :focus  {
-    fill: #4D5AE5;
+.modalform {
+   
+} 
+     
+.form-futter {
+   display: flex;
+   gap:24px;
+   
     
   }
   input[type="checkbox"] {
