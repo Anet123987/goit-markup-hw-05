@@ -767,6 +767,9 @@ footer .social-link:focus {
     background-color: #31d0aa !important;
 }
 
+.icon {
+    fill: #f4f4fd;
+}
 
 .subscribe-input {
     border: 1px solid var(--white);
@@ -912,7 +915,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-align: center;
     color: #2E2F42 ;
     margin-bottom: 32px;
-   
+    
   }
   .modal-wrapp{
     margin-bottom: 8px;
@@ -935,11 +938,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .modal-imput :focus {
     border-color: #4D5AE5;
     outline: none;
-  }
- 
-  .modal-imput:focus +.modal-icon{
     fill: #404bbf;
   }
+ 
+  
   .modal-field {
     position: relative;
   }
