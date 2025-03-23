@@ -767,9 +767,6 @@ footer .social-link:focus {
     background-color: #31d0aa !important;
 }
 
-.icon {
-    fill: #f4f4fd;
-}
 
 .subscribe-input {
     border: 1px solid var(--white);
@@ -914,8 +911,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42 ;
-    margin-bottom: 16px;
-    margin-top: 72px;
+    margin-bottom: 32px;
+   
   }
   .modal-wrapp{
     margin-bottom: 8px;
