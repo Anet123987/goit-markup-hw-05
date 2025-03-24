@@ -46,6 +46,12 @@ body {
     font-weight: 400;
     color: #434455;
 }
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .site_header {
    
     background-color:white;
