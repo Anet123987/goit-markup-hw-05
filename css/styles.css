@@ -1072,6 +1072,9 @@ input:focus {
   .modal-checkbox:checked ~ .modal-label-check .modal-check-icon {
     fill: #F4F4FD;
   }
+  .modal-checkbox:checked + .modal-label-check .modal-check-icon {
+    fill: #F4F4FD;
+  }
   
 
   .modal-label-check{
