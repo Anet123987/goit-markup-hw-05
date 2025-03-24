@@ -1068,6 +1068,7 @@ input:focus {
   .check-check:checked + .modal-label-check .modal-check {
     background-color: #404bbf; 
     border: none; 
+    fill: #F4F4FD;
   }
   .modal-checkbox:checked ~ .modal-label-check .modal-check-icon {
     fill: #F4F4FD;
